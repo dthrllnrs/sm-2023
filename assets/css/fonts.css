@@ -1,0 +1,12 @@
+@font-face{
+  font-family: corpsans;
+  font-style: normal;
+  font-weight:400;
+  src: url("../fonts/CorpSansRd-RegularCnd.ttf") format('truetype');
+}
+@font-face{
+  font-family: corpsans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/CorpSansRd-BoldCnd.ttf") format('truetype');
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Products</title>
+</head>
+<body>
+  <section class="header-section">
+    <span class="title">Products Table</span>
+    <div class="title-banner">
+      <span>Products Demo</span>
+    </div>
+  </section>
+  <section class="table-section">
+    <div class="search-wrapper">
+      <input type="text" name="search" id="searchInput" placeholder="Search Product">
+      <span class="search-state"></span>
+    </div>
+    <div class="table-wrapper">
+      <table id="productsTable">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!--  -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- modal -->
+  <div class="modal" id="productInfoModal">
+    <div class="modal-content">
+      <span class="close" id="closeModalBtn">&times;</span>
+      <div class="product-info">
+        <span class="product-category"></span>
+        <span class="product-name"></span>
+        <span class="product-description"></span>
+        <span class="product-price"></span>
+      </div>
+      <div class="product-images">
+        <span class="title">More Images</span>
+        <div class="images-wrapper">
+        </div>
+        <img alt="" class="preview">
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>
